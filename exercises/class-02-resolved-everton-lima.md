@@ -95,9 +95,9 @@ db.pokemons.findOne()
 
 
 db.pokemons.find()
-{ "_id" : ObjectId("564668c07371891bdd4ce953"), "name" : "Raichu", "description"                                                                : "Evolução e muito mais legal do que o Pikachu", "type" : "Eletric", "attack"                                                                : 50, "defense" : 30, "height" : 0.8 }
-{ "_id" : ObjectId("564668c07371891bdd4ce954"), "name" : "Sandshrew", "descripti                                                               on" : "Pokemon de pedra", "type" : "ground", "attack" : 40, "defense" : 40, "hei                                                               ght" : 0.6 }
-{ "_id" : ObjectId("564668c07371891bdd4ce955"), "name" : "Nidoran", "description                                                               " : "Pokemon rato", "type" : "Poison", "attack" : 30, "defense" : 20, "height" :                                                                0.4 }
-{ "_id" : ObjectId("564668c07371891bdd4ce956"), "name" : "Clefairy", "descriptio                                                               n" : "Pokemon fada", "type" : "Fairy", "attack" : 20, "defense" : 20, "height" :                                                                0.6 }
-{ "_id" : ObjectId("564668c07371891bdd4ce957"), "name" : "Vulpix", "description"                                                                : "Pokemon raposa", "type" : "Fire", "attack" : 20, "defense" : 20, "height" :                                                                0.6 }
+{ "_id" : ObjectId("564668c07371891bdd4ce953"), "name" : "Raichu", "description": "Evolução e muito mais legal do que o Pikachu", "type" : "Eletric", "attack"                                                                : 50, "defense" : 30, "height" : 0.8 }
+{ "_id" : ObjectId("564668c07371891bdd4ce954"), "name" : "Sandshrew", "description" : "Pokemon de pedra", "type" : "ground", "attack" : 40, "defense" : 40, "hei                                                               ght" : 0.6 }
+{ "_id" : ObjectId("564668c07371891bdd4ce955"), "name" : "Nidoran", "description" : "Pokemon rato", "type" : "Poison", "attack" : 30, "defense" : 20, "height" :                                                                0.4 }
+{ "_id" : ObjectId("564668c07371891bdd4ce956"), "name" : "Clefairy", "description" : "Pokemon fada", "type" : "Fairy", "attack" : 20, "defense" : 20, "height" :                                                                0.6 }
+{ "_id" : ObjectId("564668c07371891bdd4ce957"), "name" : "Vulpix", "description": "Pokemon raposa", "type" : "Fire", "attack" : 20, "defense" : 20, "height" :                                                                0.6 }
 ```
