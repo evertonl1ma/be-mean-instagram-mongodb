@@ -1,6 +1,12 @@
 # MongoDB - Aula 02 - Exercício
 autor: Everton Lima
 
+## Mudando pra database(Passo 1)
+
+```
+use be-mean-pokemons
+```
+
 ## Listagem das databases (Passo 2)
 
 ```
