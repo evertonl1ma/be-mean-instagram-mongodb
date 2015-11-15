@@ -1,1 +1,1 @@
-Repositório com exercícios de MongoDB do curso Be Mean Instagram
+Repositório com exercícios e resumos do banco de dados MongoDB
