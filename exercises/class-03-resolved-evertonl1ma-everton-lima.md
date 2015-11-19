@@ -5,7 +5,8 @@
 ```md
 # MongoDB - Aula 03 - Exercício
 autor: **Everton Lima**
-
+```
+```md
 ## Liste todos Pokemons com a altura **menor que** 0.5
 
 var query= {height: {$lt: 0.5}}
@@ -15,6 +16,7 @@ db.pokemons.find(query)
 { "_id" : ObjectId("5644fd6f94c4f27819da5726"), "name" : "Bulbassauro", "Description" : "Chicote de trepadeira", "type" : "grama", "atack" : 49, "height" : 0.4}
 { "_id" : ObjectId("56450ad2521495068466e39d"), "name" : "Caterpie", "Description" : "Larva lutadora", "type" : "inseto", "atack" : 30, "height" : 0.3, "defense" : 35 }
 
+```
 
 ## Liste todos Pokemons com a altura **maior ou igual que** 0.5 **E** do tipo grama
 
@@ -48,3 +50,5 @@ db.pokemons.find(query)
 { "_id" : ObjectId("5644f98677799cd5d9f21749"), "name" : "Pikachu", "Description" : "Rato elétrico bem fofinho", "type" : "eletric", "atack" : 55, "height" : 0.4}
 { "_id" : ObjectId("5644fd6f94c4f27819da5726"), "name" : "Bulbassauro", "Description" : "Chicote de trepadeira", "type" : "grama", "atack" : 49, "height" : 0.4}
 { "_id" : ObjectId("564501234d99cf12bbc22dde"), "name" : "Squirtle", "Description" : "Ejeta água que o passarinho não bebe", "type" : "água", "atack" : 48, "height" : 0.5}
+
+```
