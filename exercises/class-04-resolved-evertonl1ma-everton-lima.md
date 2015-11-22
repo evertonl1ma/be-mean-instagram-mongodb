@@ -1,5 +1,5 @@
 ```md
-1- **Adicionar** 2 ataques ao mesmo tempo para os seguintes pokemons: Pikachu, 
+1- Adicionar 2 ataques ao mesmo tempo para os seguintes pokemons: Pikachu, 
      Squirtle, Bulbassauro e Charmander
 
 2- Adicionar 1 movimento em todos os pokemons: 'desvio'.
