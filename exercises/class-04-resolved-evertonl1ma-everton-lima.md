@@ -5,10 +5,10 @@
 2- Adicionar 1 movimento em todos os pokemons: 'desvio'.
 
 3- Adicionar o pokemons "AindaNaoExisteMon" caso ele não exista com todos os dados com o 
-valor 'null' e a descrição: "Sem maiores informações".
+   valor 'null' e a descrição: "Sem maiores informações".
 
 4- Pesquisar todos os pokemons que possuam o ataque "investida" e mais um que você adicionou, 
-escolha seu pokemon favorito.
+   escolha seu pokemon favorito.
 
 5- Pesquisar todos os pokemons que possuam os ataques que você adicionou, escolha seu pokemon favorito.
 
