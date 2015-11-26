@@ -18,4 +18,30 @@
 
 8- Remova todos os pokemons do tipo água e com attack menor que 50.
 
+9- Explicar as diferenças entre os operadores '$ne' e '$not'.
+```
+
+```md
+## Exercício 1
+
+var query= {name: /Pikachu/i}
+var mod= {$pushAll: {moves: ["Esfera elétrica", "Investida trovão"]}}
+ 
+db.pokemons.update(query, mod)
+
+var query= {name: /Squirtle/i}
+var mod= {$pushAll: {moves: ["Raio de gelo", "Giro rápido"]}}
+ 
+db.pokemons.update(query, mod)
+
+var query= {name: /Bulbassauro/i}
+var mod= {$pushAll: {moves: ["Raio solar", "Dança de pétalas"]}}
+ 
+db.pokemons.update(query, mod)
+
+var query= {name: /Charmander/i}
+var mod= {$pushAll: {moves: ["Brasas", "Encarar"]}}
+ 
+db.pokemons.update(query, mod)
+
 ```
