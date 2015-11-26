@@ -86,3 +86,12 @@ var query= {moves: {$in: [/investida/i]}}
 db.pokemons.find(query)
 
 ```
+
+## Exercício 5 
+
+``js
+
+var query= {moves: {$all: [/investida/i, /esfera elétrica/i]}}
+db.pokemons.find(query)
+
+```
