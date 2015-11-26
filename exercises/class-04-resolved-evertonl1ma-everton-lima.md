@@ -92,7 +92,7 @@ db.pokemons.find(query)
 
 ## Exercício 5 
 
-``js
+```js
 
 var query= {moves: {$all: [/raio solar/i, /dança de pétalas/i]}}
 db.pokemons.find(query)
