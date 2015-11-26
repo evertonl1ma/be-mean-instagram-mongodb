@@ -77,3 +77,12 @@ var options= {upsert: true}
 
 db.pokemons.update(query, mod, options)
 ```
+
+## Exercício 4 
+
+```js
+
+var query= {moves: {$in: [/investida/i]}}
+db.pokemons.find(query)
+
+```
