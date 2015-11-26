@@ -46,3 +46,34 @@ var mod= {$pushAll: {moves: ["Brasas", "Encarar"]}}
 db.pokemons.update(query, mod)
 
 ```
+
+## Exercício 2
+
+```js
+var query= {}
+var mod= {$push: {moves: "Desvio"}}
+var options= {multi: true}
+ 
+db.pokemons.update(query, mod, options)
+
+```
+
+## Exercício 3
+
+```js
+var query= {name: /AindaNaoExisteMon/i}
+var mod= {$setOnInsert:
+     {
+	   name: "AindaNaoExisteMon",
+	   type: null,
+	   attack: null,
+	   defense: null,
+	   height: null,
+	   description: "Sem maiores informações"
+	 }
+}
+
+var options= {upsert: true}
+
+db.pokemons.update(query, mod, options)
+```
