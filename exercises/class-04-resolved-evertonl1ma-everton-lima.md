@@ -219,3 +219,113 @@ db.pokemons.find(query).pretty()
 }
 
 ```
+
+## Exercício 7 
+
+```js
+
+var query= {$and: [{moves: {$in: ["Investida"]}}, {attack: {$not: {$lte: 49}}}]}
+db.pokemons.find(query).pretty()
+
+{
+        "_id" : ObjectId("56450ad2521495068466e39d"),
+        "name" : "Caterpie",
+        "Description" : "Larva lutadora",
+        "type" : "inseto",
+        "atack" : 30,
+        "height" : 0.3,
+        "defense" : 35,
+        "active" : true,
+        "moves" : [
+                "Investida",
+                "Desvio"
+        ]
+}
+{
+        "_id" : ObjectId("5644f98677799cd5d9f21749"),
+        "name" : "Pikachu",
+        "Description" : "Rato elétrico bem fofinho",
+        "type" : "eletric",
+        "atack" : 55,
+        "height" : 0.4,
+        "active" : true,
+        "moves" : [
+                "Investida",
+                "Choque do Trovão",
+                "Esfera elétrica",
+                "Investida trovão",
+                "Desvio"
+        ]
+}
+{
+        "_id" : ObjectId("564f9799607966c5bb3a1f2d"),
+        "active" : true,
+        "name" : "NaoExisteMon",
+        "atack" : null,
+        "defense" : null,
+        "height" : null,
+        "description" : "Sem maiores informações",
+        "moves" : [
+                "Investida",
+                "Desvio"
+        ]
+}
+{
+        "_id" : ObjectId("564f78ad607966c5bb3a1f2c"),
+        "active" : true,
+        "moves" : [
+                "Investida",
+                "Desvio"
+        ]
+}
+{
+        "_id" : ObjectId("564501234d99cf12bbc22dde"),
+        "name" : "Squirtle",
+        "Description" : "Ejeta água que o passarinho não bebe",
+        "type" : "água",
+        "atack" : 48,
+        "height" : 0.5,
+        "active" : true,
+        "moves" : [
+                "Investida",
+                "Hidro bomba",
+                "Raio de gelo",
+                "Giro rápido",
+                "Desvio"
+        ]
+}
+{
+        "_id" : ObjectId("5644fd6f94c4f27819da5726"),
+        "name" : "Bulbassauro",
+        "Description" : "Chicote de trepadeira",
+        "type" : "grama",
+        "atack" : 49,
+        "height" : 0.4,
+        "active" : true,
+        "moves" : [
+                "Investida",
+                "Folha Navalha",
+                "Raio solar",
+                "Dança de pétalas",
+                "Desvio"
+        ]
+}
+{
+        "_id" : ObjectId("5644ff114d99cf12bbc22ddd"),
+        "name" : "Charmander",
+        "Description" : "É o cão chupando manga de fofinho!",
+        "type" : "fogo",
+        "atack" : 52,
+        "height" : 0.6,
+        "active" : true,
+        "moves" : [
+                "Investida",
+                "Lança Chamas",
+                "Brasas",
+                "Encarar",
+                "Desvio"
+        ]
+}
+
+
+```
