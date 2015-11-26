@@ -21,9 +21,10 @@
 9- Explicar as diferenças entre os operadores '$ne' e '$not'.
 ```
 
-```md
+
 ## Exercício 1
 
+```js
 var query= {name: /Pikachu/i}
 var mod= {$pushAll: {moves: ["Esfera elétrica", "Investida trovão"]}}
  
