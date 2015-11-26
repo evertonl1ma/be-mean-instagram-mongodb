@@ -329,3 +329,16 @@ db.pokemons.find(query).pretty()
 
 
 ```
+
+## Exercício 8 
+
+```js
+
+var query= {$and: [{type: /água/i}, {attack: {$lt: 50}}]}
+db.pokemons.remove(query) 
+
+WriteResult({ "nRemoved" : 1 })
+
+```
+
+## Exercício 9 
