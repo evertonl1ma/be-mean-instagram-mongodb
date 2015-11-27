@@ -14,3 +14,22 @@
    - .count()
    - TIPO FOGO
    - só de quantos tem a defesa maior que 70
+   
+
+## Exercício 1
+
+```md
+$ mongoimport --host 127.0.0.1 --db be-mean --collection pokemons --drop --file pokemons.json
+2015-11-26T23:16:13.313-0200    connected to: 127.0.0.1
+2015-11-26T23:16:13.354-0200    dropping: be-mean.pokemons
+2015-11-26T23:16:13.896-0200    imported 610 documents
+
+
+$ mongoimport --host 127.0.0.1 --db be-mean --collection restaurantes --drop --file restaurantes.json
+2015-11-26T23:17:15.928-0200    connected to: 127.0.0.1
+2015-11-26T23:17:15.931-0200    dropping: be-mean.restaurantes
+2015-11-26T23:17:18.925-0200    [####################....] be-mean.restaurantes9.8 MB/11.4 MB (86.2%)
+2015-11-26T23:17:20.634-0200    imported 25359 documents
+
+```
+
