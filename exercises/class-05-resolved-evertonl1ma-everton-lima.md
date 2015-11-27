@@ -215,3 +215,18 @@ db.pokemons.aggregate([
 
 ```
 
+## Exercício 6 
+
+```js 
+
+db.pokemons.count()
+610
+
+
+db.pokemons.count({types: "fire"})
+47
+
+db.pokemons.count({defense: {$gt: 70}})
+250
+
+```
