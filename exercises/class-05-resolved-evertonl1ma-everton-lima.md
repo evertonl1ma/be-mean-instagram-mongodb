@@ -127,3 +127,30 @@ db.restaurantes.distinct("cuisine")
 ]
 
 ``` 
+## Exercício 3 
+
+```js 
+
+db.pokemons.distinct("types")
+[
+        "normal",
+        "fire",
+        "water",
+        "bug",
+        "flying",
+        "poison",
+        "electric",
+        "steel",
+        "ghost",
+        "ice",
+        "fighting",
+        "psychic",
+        "grass",
+        "ground",
+        "fairy",
+        "rock",
+        "dark",
+        "dragon"
+]
+
+```
