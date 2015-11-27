@@ -154,3 +154,30 @@ db.pokemons.distinct("types")
 ]
 
 ```
+
+## Exercício 4 
+
+```js 
+
+db.pokemons.find({}, {name: 1, _id: 0}).limit(5).skip(5 * 0)
+{ "name" : "Rattata" }
+{ "name" : "Charmander" }
+{ "name" : "Charmeleon" }
+{ "name" : "Wartortle" }
+{ "name" : "Blastoise" }
+
+db.pokemons.find({}, {name: 1, _id: 0}).limit(5).skip(5 * 1)
+{ "name" : "Caterpie" }
+{ "name" : "Metapod" }
+{ "name" : "Butterfree" }
+{ "name" : "Spearow" }
+{ "name" : "Kakuna" }
+
+db.pokemons.find({}, {name: 1, _id: 0}).limit(5).skip(5 * 2)
+{ "name" : "Farfetchd" }
+{ "name" : "Magnemite" }
+{ "name" : "Magneton" }
+{ "name" : "Doduo" }
+{ "name" : "Seel" }
+
+```
