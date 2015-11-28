@@ -11,6 +11,6 @@ Repositório com exercícios e resumos do banco de dados MongoDB
         Remove
 	Drop
 	
-Paginação
-Agregation Framework
-GridFS
+       Paginação
+       Agregation Framework
+       GridFS
