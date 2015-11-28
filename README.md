@@ -4,13 +4,13 @@ Repositório com exercícios e resumos do banco de dados MongoDB
 
 ## Conteúdo
     Crud
-	  Insert
-	        Save
-		Find
-		FindOne
-		Remove
-		Drop
+	Insert
+	Save
+        Find
+        FindOne
+        Remove
+	Drop
 	
-	Paginação
-	Agregation Framework
-	GridFS
+Paginação
+Agregation Framework
+GridFS
