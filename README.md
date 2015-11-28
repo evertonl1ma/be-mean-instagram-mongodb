@@ -9,7 +9,7 @@ Repositório com exercícios e resumos do banco de dados MongoDB
         Find
         FindOne
         Remove
-	Drop
+ 	    Drop
 	
         Paginação
         Agregation Framework
