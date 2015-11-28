@@ -4,8 +4,8 @@ Repositório com exercícios e resumos do banco de dados MongoDB
 
 ## Conteúdo
     Crud
-	    Insert
-		Save
+	  Insert
+	        Save
 		Find
 		FindOne
 		Remove
