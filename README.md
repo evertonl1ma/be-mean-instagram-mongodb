@@ -14,3 +14,5 @@
         Paginação
         Agregation Framework
         GridFS
+        Réplicas
+        
