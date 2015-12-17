@@ -4,19 +4,17 @@
 ## Resumo
 
 ## Conteúdo
-    Crud
-	Insert
-	Save
-        Find
-        FindOne
-        Remove
- 	    Drop
+    *Crud
+	*Insert
+	*Save
+        *Find
+        *FindOne
+        *Remove
+ 	    *Drop
 	
-        Paginação
-        Agregation Framework
-        GridFS
-        Réplicas
-		       Árbitros
-        Shards        
-
-* Teste
+        *Paginação
+        *Agregation Framework
+        *GridFS
+        *Réplicas
+		       *Árbitros
+        *Shards        
